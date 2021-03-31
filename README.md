@@ -1,303 +1,664 @@
-# rajk
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>bb</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
-  </head>
-  <style type="text/css">
-  .navbar
-  {
-      background-color: rgb(73, 3, 9);
+  <title>Boostrap</title>
+  
+<style>
 
-
-  }
-  .header
-  {
-    background-color: rgb(73, 3, 9);
-
-  }
-.bg
-{
-    background-image:url('h.png') ;
-    width:100% ;
-    height: 100%;
+element.style {
 }
-#login
-{
-    padding: 20px 20px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    box-shadow: -13px -13px 93px -11px rgba(0,0,0,0.99);
--webkit-box-shadow: -13px -13px 93px -11px rgba(0,0,0,0.99);
--moz-box-shadow: -13px -13px 93px -11px rgba(0,0,0,0.99);
-    
+.bd-navbar {
+    padding: .75rem 0;
+    background-color: #7952b3;
 }
-.btn
-{
-  background-color:  rgb(143, 1, 1);
-
+@media (min-width: 768px)
+.navbar-expand-md {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
 }
-{
-    margin:auto;
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
 }
-.rounded-circle
-{
-  border: 5px solid rgb(156, 5, 5);
+*, ::after, ::before {
+    box-sizing: border-box;
 }
-.raj
-{
-  border: 2px solid rgb(156, 5, 5);
-
+user agent stylesheet
+header {
+    display: block;
 }
-.bk
-{
-  background-color:  rgb(143, 1, 1);
+body {
+    margin: 0;
+    font-family: var(--bs-font-sans-serif);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
 }
-.img
-{
-  background-color:  rgb(121, 4, 4);
-
+:root {
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --bs-font-sans-serif: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
 }
-  </style>
- </head>
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
 
-  <body data-spy="scroll" data-bs-target="#navbarSupportedContent">
+</style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-success navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Website</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="">
+            <a class="nav-link active" href="/rajk">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="/rajk/about.html">about</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="/rajk">contact us</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+        <div class="mx-2 my-2">
+
+          <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#LoginModal" type="">Login</button>
+          <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#SignupModal" type="">Signup</button>
+
+        </div>
+
+      </div>
+    </div>
+  </nav>
 
 
-    <nav class="navbar navbar-expand-lg navbar-light   ">
 
-        <div class="container-fluid ">
-          <img src="/rajk/11.jpg" width="60" height="50" alt="" class="rounded-circle raj">  <h><strong><i><a class="navbar-brand text-white" href="#" >BLOOD BANK</a></i></strong></h>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse text-white" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto text-white d-flex justify-content-end">
-              <li class="nav-item">
-                <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown text-white">
-                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item " href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item text-white">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
-            <form class="d-flex" text-white>
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+
+<!--login Modal -->
+<div class="modal fade" id="LoginModal" tabindex="-1" aria-labelledby="LoginModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="LoginModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+ <!-- Text input-->
+
+ <div class="form-group">
+  <div class="row d-flex justify-content-center align-items-center">
+
+    <label class="col-md-3 control-label">Username</label>
+    <div class="col-md-6 inputGroupContainer">
+      <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+        <input name="user_name" placeholder="Username" class="form-control" type="text">
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+
+<!-- Text input-->
+
+<div class="form-group">
+  <div class="row d-flex justify-content-center align-items-center">
+
+    <label class="col-md-3 control-label">Password</label>
+    <div class="col-md-6 inputGroupContainer">
+      <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+        <input name="user_password" placeholder="Password" class="form-control" type="password">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="form-group">
+  <div class="container">
+
+    <div class="row  d-flex justify-content-center align-items-center">
+      <label class="col-md-4 control-label"></label>
+      <div class="col-md-6"><br>
+        <button type="submit" class="btn btn-primary ">Login <span
+            class="glyphicon glyphicon-send"></span></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- signup trigger modal -->
+
+<!-- Modal -->
+<div class="modal fade" id="SignupModal" tabindex="-1" aria-labelledby="SignupModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="SignupModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+
+        <div class="container my-4 ">
+
+          <form class="well form-horizontal" action=" " method="post" id="contact_form">
+
+            <fieldset>
+
+              <!-- Text input-->
+
+              <div class="form-group my-1">
+                <div class="row d-flex justify-content-center align-items-center">
+
+                  <label class="col-md-3 control-label">First Name</label>
+                  <div class="col-md-6 inputGroupContainer">
+                    <div class="input-group">
+                      <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                      <input name="last_name" placeholder="Last Name" class="form-control" type="text">
+                    </div>
+                  </div>
+                </div>
+              </div>
+<!-- Text input-->
+
+              <div class="form-group">
+                <div class="row d-flex justify-content-center align-items-center">
+
+                  <label class="col-md-3 control-label">Last Name</label>
+                  <div class="col-md-6 inputGroupContainer">
+                    <div class="input-group">
+                      <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                      <input name="last_name" placeholder="Last Name" class="form-control" type="text">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <div class="row d-flex justify-content-center align-items-center">
+
+                  <label class="col-md-3 control-label">Department / Office</label>
+                  <div class="col-md-6 selectContainer">
+                    <div class="input-group">
+                      <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+                      <select name="department" class="form-control selectpicker">
+                        <option value="">Select your Department/Office</option>
+                        <option>Department of Engineering</option>
+                        <option>Department of Agriculture</option>
+                        <option>Accounting Office</option>
+                        <option>Tresurer's Office</option>
+                        <option>MPDC</option>
+                        <option>MCTC</option>
+                        <option>MCR</option>
+                        <option>Mayor's Office</option>
+                        <option>Tourism Office</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Text input-->
+
+              <div class="form-group">
+                <div class="row d-flex justify-content-center align-items-center">
+
+                  <label class="col-md-3 control-label">Username</label>
+                  <div class="col-md-6 inputGroupContainer">
+                    <div class="input-group">
+                      <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                      <input name="user_name" placeholder="Username" class="form-control" type="text">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Text input-->
+
+              <div class="form-group">
+                <div class="row d-flex justify-content-center align-items-center">
+
+                  <label class="col-md-3 control-label">Password</label>
+                  <div class="col-md-6 inputGroupContainer">
+                    <div class="input-group">
+                      <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                      <input name="user_password" placeholder="Password" class="form-control" type="password">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Text input-->
+
+              <div class="form-group">
+                <div class="row d-flex justify-content-center align-items-center">
+
+                  <label class="col-md-3 control-label">Confirm Password</label>
+                  <div class="col-md-6 inputGroupContainer">
+                    <div class="input-group">
+                      <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                      <input name="confirm_password" placeholder="Confirm Password" class="form-control"
+                        type="password">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Text input-->
+              <div class="form-group">
+                <div class="row d-flex justify-content-center align-items-center">
+
+                  <label class="col-md-3 control-label">E-Mail</label>
+                  <div class="col-md-6 inputGroupContainer">
+                    <div class="input-group">
+                      <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                      <input name="email" placeholder="E-Mail Address" class="form-control" type="text">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <!-- Text input-->
+
+              <div class="form-group">
+                <div class="row d-flex justify-content-center align-items-center">
+
+                  <label class="col-md-3 control-label">Contact No.</label>
+                  <div class="col-md-6 inputGroupContainer">
+                    <div class="input-group">
+                      <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+                      <input name="contact_no" placeholder="(639)" class="form-control" type="text">
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+
+        <!-- Button -->
+        <div class="form-group">
+          <div class="container">
+
+            <div class="row  d-flex justify-content-center align-items-center">
+              <label class="col-md-4 control-label"></label>
+              <div class="col-md-6"><br>
+                <button type="submit" class="btn btn-success ">SUBMIT <span
+                    class="glyphicon glyphicon-send"></span></button>
+              </div>
+            </div>
           </div>
         </div>
-      </nav>
+      </div>
 
+      </fieldset>
 
-<div class="container-fluid bg">
-    <div class="row">
-
-<div class="col-md-4 col-sm-4 col-xs-12"></div>
-
-<div class="col-md-4 col-sm-4 col-xs-12 text-white">
-<form id="login">
-    <h1 class="text-center">BLOOD BANK</h1>
-
-    <img src="11.jpg"width="150" height="100" class=" rounded-circle mx-auto d-block" alt="">
-    <div class="form-group">
-
-        <label>Email</label>
-    <input type="email" placeholder="Enter the Email" class="form-control">
+      </form>
     </div>
-    <br>
-    <div class="form-group">
-        <label>Password</label>
-    <input type="password" placeholder="Enter the password" class="form-control">
-    </div>
-    <br>
 
-    <div class="checkbox">
-        <label><input type="checkbox"> Remeber Me
-        </label>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
     </div>
-    <br>
-<div class="row">
-    <button type="submit" class="shadow-lg p-1 mb-1 btn btn-danger btn-md block ">Login</button>
   </div>
+</div>
 
-  <div class="row">
-    <a href="register.html" button type="submit" class="shadow-lg p-1 mb-1 btn btn-danger btn-md block" >Register</a>
-  </div>
 
-        </form>
+
+  <!-- signup modal -->
+  <div class="modal fade" id="SignupModal" tabindex="-1" aria-labelledby="SignupModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="SignupModalLabel">Registration</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+
+
         
-</div>
-<div class="col-md-4 col-sm-4 col-xs-12"></div>
-
-</div>
-</div>
-
-
-
-      <div class="about-area bk">
-        <br>
-        <br>
       
-          <h1 class="section_title text-center text-white"><strong>About Blood Bank</strong></h1>
-        <br>
-        
-        <div class="container mx-auto">
+
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      <button type="button" class="btn btn-primary">Save changes</button>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="3.jpg" width="1100" height="500" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5> Welcome to Bootstrap</h5>
+          <p>Technology,coding,programmer</p>
+          <button class="btn btn-primary">Technology</button>
+          <button class="btn btn-danger">Coding</button>
+          <button class="btn btn-success">Programmer</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="4.jpg" width="1100" height="500" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Welcome to Nature</h5>
+          <p>Water,nature so wonderfull this movement.</p>
+          <button class="btn btn-primary">Water</button>
+          <button class="btn btn-danger">nature</button>
+          <button class="btn btn-success">wonderfull</button>
+
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="5.jpg" width="1100" height="500" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Welcome to everyone</h5>
+          <p>Hii, Good Morning everyone</p>
+          <button class="btn btn-primary">Hii</button>
+          <button class="btn btn-danger">Coding</button>
+          <button class="btn btn-success">Good</button>
+
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+  <div class="container my-4 mx-6 ">
+    <div class="row md-2">
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-primary">World</strong>
+            <h3 class="mb-0">Nature</h3>
+            <div class="mb-1 text-muted">Nov 12</div>
+            <p class="card-text mb-auto">Although nearly 70% of the Earth's surface is water-covered, only 2.5% is readily available as freshwater. More than ever, we need to protect, restore and sustainably manage nature to secure precious water resources.
+
+              .</p>
+            <a href="#" class="stretched-link">Continue reading</a>
+          </div>
+          <div class="col-sm-6">
+            <img src="1.jpg" width="500" height="400">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+              dy=".3em"></text></svg>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-success">water</strong>
+            <h3 class="mb-0">life</h3>
+            <div class="mb-1 text-muted">Nov 11</div>
+            <p class="mb-auto">Water is indeed essential for all life on, in, and above the Earth. This is important to you because you are made up mostly of water. Find out what water does for the human body.
+
+            </p>
+            <a href="#" class="stretched-link">Continue reading</a>
+          </div>
+          <div class="col-md-6">
+            <img class="bd-placeholder-img" width="500" height="400" src="2.jpg" width="500" height="400">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+              dy=".3em"></text></svg>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+
+  <div class="container my-4 mx-6 ">
+    <div class="row md-2">
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-primary">World</strong>
+            <h3 class="mb-0">Real Life</h3>
+            <div class="mb-1 text-muted">Nov 12</div>
+            <p class="card-text mb-auto">Real-life definition is - existing or occurring in reality : drawn from or drawing on actual events or situations.
+            </p>
+            <a href="#" class="stretched-link">Continue reading</a>
+          </div>
+          <div class="col-sm-6">
+            <img src="https://source.unsplash.com/500x400/?nature,water" width="500" height="400">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+              dy=".3em"></text></svg>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-success">Design</strong>
+            <h3 class="mb-0">Post</h3>
+            <div class="mb-1 text-muted">Nov 11</div>
+            <p class="mb-auto">A design is a plan or specification for the construction of an object or system or for the implementation of an activity or process, or the result of that plan or specification in the form of a prototype, product or process. 
+            </p>
+            <a href="#" class="stretched-link">Continue reading</a>
+          </div>
+          <div class="col-md-6">
+            <img class="bd-placeholder-img" width="500" height="400"
+              src="https://source.unsplash.com/1600x900/?nature,code" >
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+              dy=".3em"></text></svg>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+
+
+
+
+
+  </div>
+
+
+  </nav>
+  <footer>
+    <div class="container-fluid footer-camp" style="background-color: #555;">
+      <div class="container"><br>
+        <div class="row text-center">
+          <div class="col-sm-12 text-center">
+            <div class="text-center" style="color: #fff;"><span style="color: #fff;">Call :</span> <a
+                style="color: #fff; text-decoration: none; font-weight: bold;" href="tel:1800 266 5522">1800 266
+                5522</a> | <a style="color: #fff; text-decoration: none;" href="sms:53456?body=REFER">SMS : <span
+                  style="font-weight: bold;"> 'LIFECELL' </span> to <span style="font-weight: 500;">53456</span></a> |
+              <a style="color: #fff; text-decoration: none; font-weight: bold;" href="https://www.lifecell.in"
+                target="_blank">www.lifecell.in</a>
+              <hr style="border-top: 1px solid grey; width: 100%;">
+            </div>
+          </div>
+        </div>
         <div class="row">
-          <div class="col-md-6 col-sm-6 col-xs-12 ">
-                <img src="/rajk/11.jpg" width="400"  height="250" alt="..." class="shadow-lg p-1 mb-1 bg-danger rounded rounded-circle">
-              </div>
-      
-           
-          <div class="col-md-6 col-sm-6 col-xs-12">
-            <br>
-            
-      
-      <div class="about-text d-flex justify-content-center align-items-center flex-column h-75 text-white">
-      
-      <p>A blood bank is a center where blood gathered as a result of blood donation is stored and preserved for later use in blood transfusion. 
-        The term "blood bank" typically refers to a division of a hospital where the storage of blood product occurs and where proper testing is performed .
-         However, it sometimes refers to a collection center, and some hospitals also perform collection.
-          Blood banking includes tasks related to blood collection, processing, testing, separation, and storage.
-      
-      </p>
-      <br>
-
-      </div>
-      </div>
-      
-      </div>
-      </div>
-      
-      <br>
-      <br>
-      
+          <div class="col-sm-12 text-center">
+            <div class="text-center" style="font-weight: bold; margin-bottom: 10px; color: #fff;">Connect with us</div>
           </div>
         </div>
-        
-      
-       
-        <div class="about-area img ">
-          <br>
-          <br>
-        
-          <h1 class="section_title text-center text-white"><strong>How To Donate a Blood</strong></h1>
-
-        <div class="container  ">
-
-      <div class="album py-5  "> 
-
-          <div class="row">
-
-            <div class="col-md-4">
-              <div class="card mb-4 shadow-sm raj bk">
-                <img class="card-img-top rounded" src="9.jpg" width=400"  height="300" alt="Card image cap">
-                <div class="card-body">
-                  <h class="text-white"><strong>Blood Transfusion.</strong></h>
-                  <p class="card-text text-white"> A blood transfusion is a way of adding blood to your body after an illness or injury. If your body is missing one or more of the components that make up healthy blood, a transfusion can help supply what your body is missing.</p>
+        <div class="row">
+          <div class="col-sm-12 text-center"><a href="https://in.linkedin.com/company/lifecell-international-pvt-ltd"
+              target="_blank"><img class="bg-linked"
+                src="https://www.lifecell.in/media/gene-cms/t/r/transparent_1.png"></a> <a
+              href="https://www.youtube.com/channel/UCYIW6pfPUPByeSz6jIy8mdg?disable_polymer=true" target="_blank"><img
+                class="bg-youtube" src="https://www.lifecell.in/media/gene-cms/t/r/transparent_1.png"></a> <a
+              href="https://plus.google.com/+LifecellIn" target="_blank"><img class="bg-googleplus"
+                src="https://www.lifecell.in/media/gene-cms/t/r/transparent_1.png"></a> <a
+              href="https://www.facebook.com/LifeCellInternational/" target="_blank"><img class="bg-facebook"
+                src="https://www.lifecell.in/media/gene-cms/t/r/transparent_1.png"></a> <a
+              href="http://blog.lifecell.in/" target="_blank"><img class="bg-blogger"
+                src="https://www.lifecell.in/media/gene-cms/t/r/transparent_1.png"></a> <a
+              href="https://twitter.com/Lifecellint?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+              target="_blank"><img class="bg-tweet"
+                src="https://www.lifecell.in/media/gene-cms/t/r/transparent_1.png"></a> <a
+              href="https://www.instagram.com/lifecellin/" target="_blank"><img class="bg-insta"
+                src="https://www.lifecell.in/media/gene-cms/t/r/transparent_1.png"></a></div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <div style="color: #fff; font-size: 10px; margin: 15px 0px;">Copyright 2019 Lifecell | All Rights Reserved |
+              <a id="show_2" style="color: #fff; text-decoration: none;" target="_blank">Privacy Policy |</a> <a
+                id="show_1" style="color: #fff; text-decoration: none;">Terms &amp; Conditions</a>
+              <div class="menu_2" style="display: none;">
+                <h5 class="text-left col-pnk">Privacy Policy</h5>
+                <div class="text-left">
+                  <div style="font-size: 11px; line-height: 13px; text-align: justify;">At LifeCell, we value the
+                    sensitive and private nature of the personal information you provide us over the Internet. Our
+                    Privacy Policy details how we treat your personal information, as well as the steps we take to
+                    protect your privacy. We understand that by using the LifeCell website, you consent to our use of
+                    information collected on this website in accordance with the terms of this Privacy Policy. Please
+                    read through the LifeCell Privacy Policy and if you do not agree with any term here, please do not
+                    provide any personal information on this site. However, if you choose not to provide personal
+                    information, you may not be able to take advantage of all the features on this site such as
+                    requesting additional information, e-mailing us or enrolling online.</div>
+                  <h5 class="col-pnk">Information Protection</h5>
+                  <div style="font-size: 11px; line-height: 13px; text-align: justify;">You can be assured that we will
+                    use the personal information that you provide only for the purposes indicated to you when you
+                    provided it. The information collected on this website allows us to provide the services and/or
+                    information you are requesting. For instance, we collect personal information in order to respond to
+                    requests for more information (eg. subscribe to our newsletter, signup for updates etc...)</div>
+                  <h5 class="col-pnk">How We Use Your Infromation</h5>
+                  <div style="font-size: 11px; line-height: 13px; text-align: justify;">We will not disclose, sell,
+                    rent, loan or exchange your personal information to any other individual, organization or entity
+                    except to the extent necessary to provide the information or services you have requested, unless you
+                    are first notified and expressly agree to it, or as otherwise required by law or regulation.</div>
+                  <div style="font-size: 11px; line-height: 13px; text-align: justify;">If you become a LifeCell client,
+                    we will share some or all of the information you provide with our business partners in order to
+                    facilitate the services you have selected. For example, LifeCell will notify your doctor and your
+                    hospital that you will be preserving your newborn's cord blood with LifeCell. We will share some of
+                    your contact information with our courier services to facilitate the pick-up and transport of your
+                    cord blood unit.</div>
+                  <div style="font-size: 11px; line-height: 13px; text-align: justify;">As a general rule, we will not
+                    disclose your personal information to an unrelated third party for any purpose not related to the
+                    services we offer, without first getting your express consent.</div>
+                  <h5 class="col-pnk">Disclaimer</h5>
+                  <div>All information provided in the LifeCell website is for informatory purposes only, and is not
+                    intended as personal medical advice. Always seek the advice of a qualified Physician, when in doubt.
+                  </div>
+                  <div style="font-size: 11px; line-height: 13px; text-align: justify;">In addition to information that
+                    you submit voluntarily, we also collect some information automatically - about your browser type,
+                    operating system, IP address, the domain and host from which you access the Internet, the date and
+                    time you arrived at our site, how long you spent on the site, and the pages that you visited - to
+                    help us measure the performance of our site. Please be assured that this information will be used
+                    and analyzed only in the aggregate and will not be used to identify any individual visitor.</div>
                 </div>
               </div>
-            </div>
-           
-
-            <div class="col-md-4">
-              <div class="card mb-4 shadow-sm raj bk">
-                <img class="card-img-top rounded" src="7.jpeg" width=400"  height="300" alt="Card image cap">
-                <div class="card-body">
-                  <h class="text-white"><strong>Transportaion of Blood</strong></h>
-                  <p class="card-text text-white">Requirements for packing and transport.
-                     Health providers should agree to a validated method for packing and transporting blood and 
-                     blood products.
-                      The typical way to deliver blood is by road, which often takes too long.
-
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card mb-4 shadow-sm raj bk">
-                <img class="card-img-top rounded" src="8.png"  width=400"  height="300" alt="Card image cap">
-                <div class="card-body">
-                  <strong> <h class="card-text text-white text-center"> Blood Transfusion of another person.</h></strong>
- 
-                  <p class="card-text text-white">A blood transfusion is a safe and relatively simple medical procedure that Red blood cells carry oxygen to the body's tissues and remove CO2.
-                    a transfusion can help supply what your body is missing.
-                  </p>
-                 </div>
-              </div>
-            </div>
-
-            <div class="col-md-4">
-              <div class="card mb-4 shadow-sm raj bk">
-                <img class="card-img-top rounded" src="12.jpg" width=400"  height="300" alt="Card image cap">
-                <div class="card-body">
-                  <strong> <h class="card-text text-white text-center"> give Blood save life.</h></strong>
-
-                  <p class="card-text text-white">Find blood donors using blood bank application. Search blood donors using blood donation application. Become a Volunteer. Give Blood. Types: A+, A-, B+, B-, AB+, AB-, O+, O-.
-                  </p>
-                  <br>
-          <br>
-          <br>
-          <br>
-          <br>
-        
-          
-        
-        
-                  </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card mb-4 shadow-sm raj bk">
-                <img class="card-img-top rounded" src="13.jpg"  width=400"  height="300"  alt="Card image cap">
-                <div class="card-body">
-                  <strong> <h class="card-text text-white text-center"> Transportaion of Blood by taxy, tempo.</h></strong>
- 
-                  <p class="text-white">Today´s hospital environment is a complex logistical system where patients, different items and bloodsamples are being moved from A to B. A huge number of devices needed for the daily patient treatment is sent from storage rooms to designated areas where doctors and nurses need such components for patient treatment. 
-
-                  
-                    
-                    
-                  
-                  
-                  </p>
-                  </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card mb-4 shadow-sm raj bk">
-                <img class="card-img-top rounded" src="14.jpg"  width=400"  height="300"  alt="Card image cap">
-                <div class="card-body">
-                  <strong> <h class="card-text text-white text-center"> why blood is important.</h></strong>
-
-                  <p class="card-text text-white">Blood brings oxygen and nutrients to all the parts of the body so they can keep working. Blood carries carbon dioxide and other waste materials to the lungs, kidneys, and digestive system to be removed from the body. Blood also fights infections, and carries hormones around the body.
-                  </p>
-                  <br>
-                  
-                  <br>
-                  
-          
+              <div class="menu_1" style="display: none;">
+                <h5 class="text-left col-pnk">Terms &amp; Conditions</h5>
+                <div>
+                  <p style="font-size: 11px; line-height: 13px; text-align: justify;">All the EMI values are in INR.</p>
+                  <p style="font-size: 11px; line-height: 13px; text-align: justify;">*Sample collection charges will be
+                    extra and will vary based on the delivering hospital.</p>
+                  <p style="font-size: 11px; line-height: 13px; text-align: justify;">#Bajaj FinServ, Capital Float and
+                    Liquiloans options availabe in select locations. Kindly consult our representative to see if they
+                    are available at your locations.</p>
+                  <p style="font-size: 11px; line-height: 13px; text-align: justify;">EMIs derived are based on current
+                    interest rates and are subject to change as per bank / NBFC policies.</p>
+                  <p style="font-size: 11px; line-height: 13px; text-align: justify;">Details shared are inline with our
+                    current operating rates and are confirmed by cc avenue / NBFC partners.</p>
                 </div>
               </div>
             </div>
@@ -305,126 +666,20 @@
         </div>
       </div>
     </div>
-
-
-
-      <!-- Footer -->
-<footer class=" text-center text-white bk">
-    <!-- Grid container -->
-    <div class="container p-4">
-      <!-- Section: Social media -->
-      <section class="mb-4">
-        <!-- Facebook -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-facebook-f"></i
-        ></a>
-  
-        <!-- Twitter -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-twitter"></i
-        ></a>
-  
-        <!-- Google -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-google"></i
-        ></a>
-  
-        <!-- Instagram -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-instagram"></i
-        ></a>
-  
-        <!-- Linkedin -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-linkedin-in"></i
-        ></a>
-  
-        <!-- Github -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-github"></i
-        ></a>
-      </section>
-      <!-- Section: Social media -->
-  
-      <!-- Section: Form -->
-      <section class="">
-        <form action="">
-          <!--Grid row-->
-          <div class="row d-flex justify-content-center">
-            <!--Grid column-->
-            <div class="col-auto">
-              <p class="pt-2">
-                <strong>Sign up for our Blood Bank</strong>
-              </p>
-            </div>
-            <!--Grid column-->
-  
-            <!--Grid column-->
-            <div class="col-md-5 col-12">
-              <!-- Email input -->
-              <div class="form-outline form-white mb-4">
-                <input type="email" id="form5Example2" class="form-control" />
-                <label class="form-label" for="form5Example2">Email address</label>
-              </div>
-            </div>
-            <!--Grid column-->
-  
-            <!--Grid column-->
-            <div class="col-auto">
-              <!-- Submit button -->
-              <button type="submit" class="btn btn-outline-light mb-4">
-                Subscribe
-              </button>
-            </div>
-            <!--Grid column-->
-          </div>
-          <!--Grid row-->
-        </form>
-      </section>
-      <!-- Section: Form -->
-  
-      <!-- Section: Text -->
-      <section class="mb-4">
-        <p>
-            Register for Blood Donation Camp In your Area, Help the needy people, Donate Now.
-             Donate & Save Tax. Support a child. Help old-age home.
-              Support Girl Education. Amenities: Help Old Age people, & Orphns with Food,, 
-              Clothes and, Shelter Support donation.
-        </p>
-      </section>
-      <!-- Section: Text -->
-  
-      <!-- Section: Links -->
-    </div>
-    <!-- Grid container -->
-  
-    <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      © 2020 Copyright:
-      <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-    </div>
-    <!-- Copyright -->
+    <div class="visible-xs"><br><br><br><br></div>
   </footer>
-  <!-- Footer -->
-      
-      
-      
+  <!-- Optional JavaScript; choose one of the two! -->
 
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
 
-      
-
-
-
-
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
     -->
-  </body>
+</body>
+
 </html>
