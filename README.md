@@ -26,7 +26,7 @@
   }
 .bg
 {
-    background-image:url('h.png') ;
+    background-image:url('/rajk/h.png') ;
     width:100% ;
     height: 100%;
 }
@@ -75,7 +75,7 @@
     <nav class="navbar navbar-expand-lg navbar-light   ">
 
         <div class="container-fluid ">
-          <img src="11.jpg" width="60" height="50" alt="" class="rounded-circle raj">  <h><strong><i><a class="navbar-brand text-white" href="#" >BLOOD BANK</a></i></strong></h>
+          <img src="/rajk/11.jpg" width="60" height="50" alt="" class="rounded-circle raj">  <h><strong><i><a class="navbar-brand text-white" href="#" >BLOOD BANK</a></i></strong></h>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -120,7 +120,7 @@
 <form id="login">
     <h1 class="text-center">BLOOD BANK</h1>
 
-    <img src="11.jpg"width="150" height="100" class=" rounded-circle mx-auto d-block" alt="">
+    <img src="/rajk/11.jpg"width="150" height="100" class=" rounded-circle mx-auto d-block" alt="">
     <div class="form-group">
 
         <label>Email</label>
@@ -166,7 +166,7 @@
         <div class="container mx-auto">
         <div class="row">
           <div class="col-md-6 col-sm-6 col-xs-12 ">
-                <img src="11.jpg" width="400"  height="250" alt="..." class="shadow-lg p-1 mb-1 bg-danger rounded rounded-circle">
+                <img src="/rajk/11.jpg" width="400"  height="250" alt="..." class="shadow-lg p-1 mb-1 bg-danger rounded rounded-circle">
               </div>
       
            
@@ -212,7 +212,7 @@
 
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm raj bk">
-                <img class="card-img-top rounded" src="9.jpg" width=400"  height="300" alt="Card image cap">
+                <img class="card-img-top rounded" src="/rajk/9.jpg" width=400"  height="300" alt="Card image cap">
                 <div class="card-body">
                   <h class="text-white"><strong>Blood Transfusion.</strong></h>
                   <p class="card-text text-white"> A blood transfusion is a way of adding blood to your body after an illness or injury. If your body is missing one or more of the components that make up healthy blood, a transfusion can help supply what your body is missing.</p>
@@ -223,7 +223,7 @@
 
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm raj bk">
-                <img class="card-img-top rounded" src="7.jpeg" width=400"  height="300" alt="Card image cap">
+                <img class="card-img-top rounded" src="/rajk/7.jpeg" width=400"  height="300" alt="Card image cap">
                 <div class="card-body">
                   <h class="text-white"><strong>Transportaion of Blood</strong></h>
                   <p class="card-text text-white">Requirements for packing and transport.
@@ -237,7 +237,7 @@
             </div>
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm raj bk">
-                <img class="card-img-top rounded" src="8.png"  width=400"  height="300" alt="Card image cap">
+                <img class="card-img-top rounded" src="/rajk/8.png"  width=400"  height="300" alt="Card image cap">
                 <div class="card-body">
                   <strong> <h class="card-text text-white text-center"> Blood Transfusion of another person.</h></strong>
  
@@ -250,7 +250,7 @@
 
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm raj bk">
-                <img class="card-img-top rounded" src="12.jpg" width=400"  height="300" alt="Card image cap">
+                <img class="card-img-top rounded" src="/rajk/12.jpg" width=400"  height="300" alt="Card image cap">
                 <div class="card-body">
                   <strong> <h class="card-text text-white text-center"> give Blood save life.</h></strong>
 
@@ -270,7 +270,7 @@
             </div>
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm raj bk">
-                <img class="card-img-top rounded" src="13.jpg"  width=400"  height="300"  alt="Card image cap">
+                <img class="card-img-top rounded" src="/rajk/13.jpg"  width=400"  height="300"  alt="Card image cap">
                 <div class="card-body">
                   <strong> <h class="card-text text-white text-center"> Transportaion of Blood by taxy, tempo.</h></strong>
  
@@ -287,7 +287,7 @@
             </div>
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm raj bk">
-                <img class="card-img-top rounded" src="14.jpg"  width=400"  height="300"  alt="Card image cap">
+                <img class="card-img-top rounded" src="/rajk/14.jpg"  width=400"  height="300"  alt="Card image cap">
                 <div class="card-body">
                   <strong> <h class="card-text text-white text-center"> why blood is important.</h></strong>
 
