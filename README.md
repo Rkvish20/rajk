@@ -105,7 +105,21 @@ body {
             <a class="nav-link active" href="/rajk/about.html">about</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="/rajk">contact us</a>
+            <a class="nav-link active" href="/raj![1](https://user-images.githubusercontent.com/80916149/113192357-466bc500-927c-11eb-9930-98b53d9d1a4d.jpg)
+![2](https://user-images.githubusercontent.com/80916149/113192359-479cf200-927c-11eb-8914-9407944d2712.jpg)
+![3](https://user-images.githubusercontent.com/80916149/113192363-48358880-927c-11eb-8e9d-8b944054e213.jpg)
+![4](https://user-images.githubusercontent.com/80916149/113192366-48ce1f00-927c-11eb-8970-08b9e8588111.jpg)
+![5](https://user-images.githubusercontent.com/80916149/113192367-4966b580-927c-11eb-94b2-00b350402827.jpg)
+![6](https://user-images.githubusercontent.com/80916149/113192369-49ff4c00-927c-11eb-989f-0779fe658891.jpg)
+![7](https://user-images.githubusercontent.com/80916149/113192371-4a97e280-927c-11eb-85ea-17ada5b83e71.jpeg)
+![8](https://user-images.githubusercontent.com/80916149/113192372-4a97e280-927c-11eb-87b6-c32efef377f6.png)
+![9](https://user-images.githubusercontent.com/80916149/113192375-4b307900-927c-11eb-8261-145cc035a4d9.jpg)
+![10](https://user-images.githubusercontent.com/80916149/113192380-4bc90f80-927c-11eb-96b5-b121acf0ba0b.jpg)
+![11](https://user-images.githubusercontent.com/80916149/113192383-4cfa3c80-927c-11eb-9d0c-ef63cccec058.jpg)
+![12](https://user-images.githubusercontent.com/80916149/113192390-4ff52d00-927c-11eb-9aa8-49b90dcc7886.jpg)
+![13](https://user-images.githubusercontent.com/80916149/113192399-55527780-927c-11eb-9478-ffd9a478b3cf.jpg)
+![14](https://user-images.githubusercontent.com/80916149/113192412-57b4d180-927c-11eb-87c0-4c5ee46d5242.jpg)
+k">contact us</a>
           </li>
         </ul>
         <form class="d-flex">
@@ -412,7 +426,7 @@ body {
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="https://source.unsplash.com/collection/190727/1600x900"  class="d-block w-100" alt="...">
+        <img src="3.jpg" width="1100" height="500" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h5> Welcome to Bootstrap</h5>
           <p>Technology,coding,programmer</p>
@@ -422,7 +436,7 @@ body {
         </div>
       </div>
       <div class="carousel-item">
-        <img src="https://source.unsplash.com/collection/190727/1600x900"  class="d-block w-100" alt="...">
+        <img src="4.jpg" width="1100" height="500" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h5>Welcome to Nature</h5>
           <p>Water,nature so wonderfull this movement.</p>
@@ -433,7 +447,7 @@ body {
         </div>
       </div>
       <div class="carousel-item">
-        <img src="https://source.unsplash.com/collection/190727/1600x900"  class="d-block w-100" alt="...">
+        <img src="5.jpg" width="1100" height="500" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h5>Welcome to everyone</h5>
           <p>Hii, Good Morning everyone</p>
@@ -470,7 +484,7 @@ body {
             <a href="#" class="stretched-link">Continue reading</a>
           </div>
           <div class="col-sm-6">
-            <img src="https://source.unsplash.com/user/erondu/daily" width="500" height="400">
+            <img src="1.jpg" width="500" height="400">
             <title>Placeholder</title>
             <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
               dy=".3em"></text></svg>
@@ -490,7 +504,7 @@ body {
             <a href="#" class="stretched-link">Continue reading</a>
           </div>
           <div class="col-md-6">
-            <img class="bd-placeholder-img" width="500" height="400" src="https://source.unsplash.com/500x400/?nature,water" width="500" height="400">
+            <img class="bd-placeholder-img" width="500" height="400" src="2.jpg" width="500" height="400">
             <title>Placeholder</title>
             <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
               dy=".3em"></text></svg>
