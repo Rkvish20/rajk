@@ -412,7 +412,7 @@ body {
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="3.jpg" width="1100" height="500" class="d-block w-100" alt="...">
+        <img src="https://source.unsplash.com/collection/190727/1600x900"  class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h5> Welcome to Bootstrap</h5>
           <p>Technology,coding,programmer</p>
@@ -422,7 +422,7 @@ body {
         </div>
       </div>
       <div class="carousel-item">
-        <img src="4.jpg" width="1100" height="500" class="d-block w-100" alt="...">
+        <img src="https://source.unsplash.com/collection/190727/1600x900"  class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h5>Welcome to Nature</h5>
           <p>Water,nature so wonderfull this movement.</p>
@@ -433,7 +433,7 @@ body {
         </div>
       </div>
       <div class="carousel-item">
-        <img src="5.jpg" width="1100" height="500" class="d-block w-100" alt="...">
+        <img src="https://source.unsplash.com/collection/190727/1600x900"  class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h5>Welcome to everyone</h5>
           <p>Hii, Good Morning everyone</p>
@@ -470,7 +470,7 @@ body {
             <a href="#" class="stretched-link">Continue reading</a>
           </div>
           <div class="col-sm-6">
-            <img src="1.jpg" width="500" height="400">
+            <img src="https://source.unsplash.com/user/erondu/daily" width="500" height="400">
             <title>Placeholder</title>
             <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
               dy=".3em"></text></svg>
@@ -490,7 +490,7 @@ body {
             <a href="#" class="stretched-link">Continue reading</a>
           </div>
           <div class="col-md-6">
-            <img class="bd-placeholder-img" width="500" height="400" src="2.jpg" width="500" height="400">
+            <img class="bd-placeholder-img" width="500" height="400" src="https://source.unsplash.com/500x400/?nature,water" width="500" height="400">
             <title>Placeholder</title>
             <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
               dy=".3em"></text></svg>
@@ -504,7 +504,25 @@ body {
 
   </div>
 
-  <div class="container my-4 mx-6 ">
+  <div class="container![1](https://user-images.githubusercontent.com/80916149/113190247-bb89cb00-9279-11eb-8a1f-28d419d25615.jpg)
+![2](https://user-images.githubusercontent.com/80916149/113190258-bcbaf800-9279-11eb-9454-f72dd74fa3ad.jpg)
+![3](https://user-images.githubusercontent.com/80916149/113190262-bd538e80-9279-11eb-817c-dd35905eccb8.jpg)
+![4](https://user-images.githubusercontent.com/80916149/113190265-bdec2500-9279-11eb-9332-a77708c25432.jpg)
+![5](https://user-images.githubusercontent.com/80916149/113190266-be84bb80-9279-11eb-84d5-2e97235c8dbe.jpg)
+![6](https://user-images.githubusercontent.com/80916149/113190268-bf1d5200-9279-11eb-8e18-48ac0279d42d.jpg)
+![7](https://user-images.githubusercontent.com/80916149/113190283-c3496f80-9279-11eb-8ac3-22ca7fdf704b.jpeg)
+![8](https://user-images.githubusercontent.com/80916149/113190290-c3e20600-9279-11eb-878c-2261ffa735f1.png)
+![9](https://user-images.githubusercontent.com/80916149/113190293-c47a9c80-9279-11eb-98e7-8bb269518b90.jpg)
+![10](https://user-images.githubusercontent.com/80916149/113190298-c5abc980-9279-11eb-904c-e0960f2f6f96.jpg)
+![11](https://user-images.githubusercontent.com/80916149/113190301-c6dcf680-9279-11eb-9355-93a16260bbc1.jpg)
+![12](https://user-images.githubusercontent.com/80916149/113190320-cc3a4100-9279-11eb-9dea-a65c6f385324.jpg)
+![13](https://user-images.githubusercontent.com/80916149/113190328-cd6b6e00-9279-11eb-8e6c-826776e0ae04.jpg)
+![14](https://user-images.githubusercontent.com/80916149/113190332-ce040480-9279-11eb-93ac-473e5ee9ad2e.jpg)
+![bb](https://user-images.githubusercontent.com/80916149/113190333-ce040480-9279-11eb-9f34-4615b7cf78c8.jpg)
+![BG](https://user-images.githubusercontent.com/80916149/113190339-cf353180-9279-11eb-9583-5284e1dd0f1b.png)
+![buyer - Copy](https://user-images.githubusercontent.com/80916149/113190352-d2302200-9279-11eb-88b3-931ff5e56753.jpg)
+![h](https://user-images.githubusercontent.com/80916149/113190355-d2c8b880-9279-11eb-844e-1f5dc0877ac7.png)
+ my-4 mx-6 ">
     <div class="row md-2">
       <div class="col-md-6">
         <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
